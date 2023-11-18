@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./food.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <header class="section-1">
+        <div class="overs">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/foodimage1.png" width="100%">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navvv" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item navvvv">
+                                <a class="nav-link active" aria-current="page" href="/food.html">Home</a>
+                            </li>
+                            <li class="nav-item navvvv">
+                                <a class="nav-link active" aria-current="page" href="/about.html">about</a>
+                            </li>
+                            <li class="nav-item navvvv">
+                                <a class="nav-link active" aria-current="page" href="/blog.html">blog</a>
+                            </li>
+                            <li class="nav-item navvvv">
+                                <a class="nav-link active" aria-current="page" href="/contact.html">contact</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li> -->
+                            <div class="d-flex align-items-center">
+                                <div class="icon">
+                                    <img src="/images/360_F_118019822_6CKXP6rXmVhDOzbXZlLqEM2ya4HhYzSV.jpg"
+                                        style="border-radius: 0px; width: 100% ; max-width: 30px;" />
+                                </div>
+                                <li class="nav-item dropdown">
+
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        profile
+                                    </a>
+                                    <ul class="dropdown-menu me-3 bg-blue" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">login</a></li>
+                                        <li><a class="dropdown-item" href="#">sign out</a></li>
+                                    </ul>
+
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+        </div>
+
+        </div>
+    </header>
+    <section>
+        
+        <div class="container">
+            <div class="contact-wrapper">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-1-footer">
+                    <h4>contact information</h4>
+                    <div class="contact-1">
+                        <div class="contact-image">
+                            <img src="/images/contact1.png" alt=".."/>
+                        </div>
+                       
+                        <div class="contact-1-r">
+                        <h5>office adress</h5>
+                        <p class="contact-para">suite 02,level 12, sahera tropical center 218,new elephant road-1205</p>
+                        </div>
+                    </div>
+                    <div class="contact-1">
+                        <div class="contact-image">
+                            <img src="/images/contact-2.png" alt=".."/>
+                        </div>
+                       
+                        <div class="contact-1-r">
+                        <h5>office adress</h5>
+                        <p class="contact-para">suite 02,level 12, sahera tropical center 218,new elephant road-1205</p>
+                        </div>
+                    </div>
+                    <div class="contact-1">
+                        <div class="contact-image">
+                            <img src="/images/contact-3.png" alt=".."/>
+                        </div>
+                       
+                        <div class="contact-1-r">
+                        <h5>office adress</h5>
+                        <p class="contact-para">suite 02,level 12, sahera tropical center 218,new elephant road-1205</p>
+                        </div>
+                    </div>
+                  
+                        <div class="contact-1">
+                            <div class="contact-image">
+                                <img src="/images/contact-4.png" alt=".."/>
+                            </div>
+                           
+                            <div class="contact-1-r">
+                            <h5>office adress</h5>
+                            <p class="contact-para">suite 02,level 12, sahera tropical center 218,new elephant road-1205</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  
+
+
+                </div>
+                <div class="col-lg-6">
+                    <h4>send us a message</h4>
+                    <form class="d-flex flex-wrap justify-content-between" id="form" onsubmit="return validation()">
+                        <div class="name-email">
+                            <input type="text" placeholder="Your Name"  name="name" id="name">
+                            <!-- <span id="name-error" class="text-danger" ></span> -->
+    
+                            <input type="text"  placeholder="Your Email" id="email"  name="email">
+                            
+                        </div>
+                        <span id="name-error" class="text-danger" ></span>
+                            <span id="email-error" class="text-danger" ></span>
+                      
+                        <input class="w-100" type="text" placeholder="Subject" id="subject" name="subject">
+                        <span id="subject-error" class="text-danger" ></span>
+                        <textarea rows="8" placeholder="Your Message" id="message"></textarea>
+                        <span id="message-error" class="text-danger" ></span>
+                        <button type="submit" class="food-btn style-2" name="submit" value="submit"><span>Submit Message</span></button>
+                    </form>
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="second-last">
+        <div class="container">
+            <div class="second-last-div">
+                <div>
+                    <h3>for news letter</h3>
+                </div>
+
+               
+                <div class="input-group2 mb-3 ">
+                    <input type="text" class="blog-form" placeholder=" Enter Your Email"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <div class="Subscribe-btn">
+
+                            <button class="btn blog-btn-u" type="button">Subscribe Now</button>
+                        </div>
+                    <div class="arrow">
+                        <i class="fa fa-paper-plane" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="blog-footer">
+        <div class="footer-image">
+            <div class="logo">
+                <img src="/images/logo.png" alt=".." />
+            </div>
+            <div class="footer-icons">
+                <div class="inner-fi">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+                <div class="inner-fi" style="color: #55acee;padding: 5px 10px;">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </div>
+                <div class="inner-fi" style="color:#007bb5; padding: 5px 10px;">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+                <div class="inner-fi" style="color: #3b5998;padding: 5px 10px">
+                    <i class="fa fa-vimeo" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span class="span">home</span>
+                <span class="span">how it works?</span>
+                <span class="span">menus</span>
+                <span class="span">chefs</span>
+                <span class="span">recipes</span>
+                <span class="span">contact</span>
+
+            </div>
+            <div class="footer-bottom2">
+                <p class="footer-p">© 2021 Mezban Design by FoxCoders.</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+       <script>
+       function validation(){
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let Subject = document.getElementById("subject").value;
+        let message = document.getElementById("message").value;
+        if(name==""){
+            document.getElementById("name-error").innerHTML="please enter your  valid name";
+            return false;
+        }
+        if((name.length<4) && (name.length<20)){
+            document.getElementById("name-error").innerHTML="name character should be between 4 and 20";
+            return false;
+        }
+        if((!isNaN(name))){
+            document.getElementById("name-error").innerHTML="name should be in characters";
+            return false;
+        }
+        if(email==""){
+            document.getElementById("email-error").innerHTML="please enter your valid email";
+            return false;
+        }
+        // if(email.indexOf("@")=0){
+        //     document.getElementById("email-error").innerHTML="please enter your valid email";
+        //     return false
+        // }
+        if(email.indexOf("@")<=0){
+            document.getElementById("email-error").innerHTML="please enter valid email"
+            return false;
+        }
+        if((email.charAt(email.length-4)!='.') && (email.charAt(email.length-3)!='.')){
+            document.getElementById("email-error").innerHTML="invalid position"
+            return false
+        }
+        if(Subject==""){
+            document.getElementById("subject-error").innerHTML="please enter valid subject";
+            return false;
+        }
+        if(message==""){
+            document.getElementById("message-error").innerHTML="please enter valid message";
+            return false;
+        }
+    }
+    </script>
+
+</body>
+
+</html>
