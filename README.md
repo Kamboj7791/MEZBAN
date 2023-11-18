@@ -29,7 +29,7 @@ This project is a basic restaurant website that showcases the menu, provides inf
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/restaurant-website.git
+   git clone https://github.com/your-username/restaurant-website.git](https://github.com/Kamboj7791/MEZBAN/tree/main
 
     Navigate to the project directory:
 
